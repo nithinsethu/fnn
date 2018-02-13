@@ -129,15 +129,3 @@ class ANN:
 
 
 
-#            change = np.matmul(delta[0],np.transpose(y[0]))/n
-#            #print(y[1][:,0],change)
-#            #input()
-#            self.bias[0] = self.bias[0] +  self.alpha*np.matmul(delta[0],np.ones((n,1)))/n
-#            self.weights[0] = self.weights[0] + self.alpha*change
-#        count = 0 
-#        for i in range(150):
-#            res = self.__sig(np.matmul(self.weights[0],self.x_test)[:,i] + np.reshape(self.bias[0],(1,3)))
-#            #print(np.shape(res),np.shape(np.reshape(self.y_test[:,i],(1,3))))
-#            if((np.round(res) == np.reshape(self.y_test[:,i],(1,3))).all()):
-#                count+=1
-#        print(count)
