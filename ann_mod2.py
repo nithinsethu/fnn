@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Feb  1 10:34:24 2018
-
-@author: 16pt23
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Tue Jan 30 23:01:24 2018
 
 @author: Nithin
